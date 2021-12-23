@@ -1,0 +1,67 @@
+body {
+    margin:0;
+}
+h2{
+    margin-top: 0;
+}
+a {color: hotpink;}
+a:hover {color: rgb(64, 50, 126);}
+header{
+    text-align: center;
+    background-color: rgb(27, 63, 47);
+    padding: 25px;
+    font-weight: bolder;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(170, 219, 170);
+   
+
+}
+nav img{
+    width: 100px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 200px;
+}
+#top {
+    color: lightpink;
+    text-shadow: 2px 2px #FF0000;
+    
+}
+#first {
+    background-image: url(../images/main.png);
+    background-size: contain;
+    background-position-x: center;
+    background-attachment: fixed;
+    height: 100vw;
+    color: lightyellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.5)
+
+
+}
+#work {
+    background-color: rosybrown;
+    padding: 50px;
+    color: rgb(177, 71, 106);
+}
+.contener {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+
+}
+.card {
+width: 25%;
+}

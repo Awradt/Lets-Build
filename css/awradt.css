@@ -1,0 +1,26 @@
+.first {
+    
+    background-color: cornflowerblue;
+    color: blanchedalmond;
+    font-size: small;
+    padding: 20px;
+    margin: 20px;
+   
+   
+    
+   
+  
+
+    
+}
+body {
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   background-color: black;
+   justify-content: space-between;
+   justify-items: center;
+   
+
+
+}
