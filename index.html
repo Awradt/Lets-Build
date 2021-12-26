@@ -51,13 +51,13 @@
 
           <!-- let's type a paragraph -->
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti,
-            nihil? Nostrum repudiandae modi ab voluptatem quisquam aspernatur
-            impedit alias architecto doloremque dicta, suscipit tempora
-            consectetur veritatis recusandae corrupti nesciunt nemo.
+           <form>
+             <input type="text" name="hiName" id="hiName">
+           </form>
           </p>
 
           <!-- this is a button -->
+          <p id="date">the date will show here</p>
           <button onclick="sendHi()">Hello!</button>
         </div>
       </section>
@@ -84,7 +84,7 @@
       </section>
 
       <!-- contact section -->
-      <section>
+      <section class="myform">
         <h2>My Form</h2>
         <p>Help us, share, build!!</p>
 
@@ -103,7 +103,7 @@
 
           <div class="input-group">
             <label for="formEmail">Enter Email:</label>
-            <input
+            <input class="myInput"
               type="email"
               name="formEmail"
               id="formEmail"
@@ -114,7 +114,7 @@
           <div class="input-group">
             <label for="formMSG">Enter the message:</label>
             <!-- textarea accepet for chars than text type of input -->
-            <textarea
+            <textarea class="myTextArea"
               name="formMSG"
               id="formMSG"
               placeholder="Your msg here:"
@@ -124,26 +124,29 @@
           <div class="input-group">
             <label>Enter the type:</label>
             <input type="radio" name="formType" value="one" id="formTypeOne" />
+            <br>
             <label for="formTypeOne">Complaint</label>
             <input type="radio" name="formType" value="two" id="formTypeTwo" />
+            <br>
             <label for="formTypeTwo">Suggestion</label>
           </div>
 
-          <div class="input-group">
-            <button onclick="sendHello()">Submit</button>
+          <div class="input-group right">
+            <button onclick="alert('hi')">submit</button>
+            
           </div>
         </form>
+
+        
+
       </section>
+
     </main>
 
     <!-- footer tag -->
-    <footer>Copyright, made with ❤️ By <span>yourname</span>.</footer>
+    <footer>Copyright, made with ❤️ By <span>awradt</span>.</footer>
 
-    <script>
-      function sendHi() {
-        alert("Hi");
-      }
-    </script>
+    
 
     <script src="./js/myScript.js"></script>
   </body>

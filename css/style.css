@@ -1,14 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin:0;
 }
 h2{
     margin-top: 0;
 }
-a {color: hotpink;}
+a {color: bisque;}
 a:hover {color: rgb(64, 50, 126);}
 header{
     text-align: center;
-    background-color: rgb(27, 63, 47);
+    background-color: rgb(204, 104, 104);
     padding: 25px;
     font-weight: bolder;
 }
@@ -16,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(170, 219, 170);
+    background-color: rgb(2, 1, 1);
    
 
 }
@@ -50,9 +53,9 @@ nav ul li{
 
 }
 #work {
-    background-color: rosybrown;
+    background-color: brown;
     padding: 50px;
-    color: rgb(177, 71, 106);
+    color: bisque;
 }
 .contener {
 display: flex;
@@ -64,4 +67,35 @@ align-items: center;
 }
 .card {
 width: 25%;
+}
+.myform {
+    background-color: rgb(184, 89, 89);
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(60, 52, 61);
+    color: bisque;
+
+}
+.myform .myInput,
+.myform .myTextArea {
+    display: block;
+    width: 100%;
+    
+}
+.myform .input-group {
+
+}
+
+
+.right {
+    text-align: right;
+}
+footer {
+    background-color: rgb(85, 23, 23);
+    padding: 10px;
+    margin: 10px;
+    color: bisque;
+
 }
